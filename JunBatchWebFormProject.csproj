@@ -73,6 +73,7 @@
     <Content Include="LoginDB.aspx" />
     <Content Include="RegisterDb.aspx" />
     <Content Include="SendingMail.aspx" />
+    <Content Include="TestPage.aspx" />
     <Content Include="UserControl.aspx" />
     <Content Include="User\UserHome.aspx" />
     <Content Include="Web.config" />
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="SendingMail.aspx.designer.cs">
       <DependentUpon>SendingMail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage.aspx.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage.aspx.designer.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="UserControl.aspx.cs">
       <DependentUpon>UserControl.aspx</DependentUpon>
